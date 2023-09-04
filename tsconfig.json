@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "target": "ES6",                       /* Specify ECMAScript target version */
+        "module": "ESNext",                    /* Use ES modules for code generation */
+        "strict": true,                        /* Enable strict type-checking */
+        "esModuleInterop": true,               /* Enables compatibility with CommonJS modules */
+        "outDir": "./dist",                    /* Specify output directory */
+        "rootDir": "./src",                    /* Specify the root directory of your source code */
+        "declaration": true,                   /* Generate declaration files (.d.ts) */
+        "sourceMap": true                      /* Generate source maps for debugging */
+    },
+  "include": ["src/**/*.ts"],              /* Specify files to be included for compilation */
+  "exclude": ["node_modules", "dist"]      /* Specify files/directories to be excluded from compilation */
+}
