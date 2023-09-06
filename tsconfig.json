@@ -2,6 +2,7 @@
     "compilerOptions": {
         "target": "ES6",                       /* Specify ECMAScript target version */
         "module": "ESNext",                    /* Use ES modules for code generation */
+        "moduleResolution": "NodeNext",
         "strict": true,                        /* Enable strict type-checking */
         "esModuleInterop": true,               /* Enables compatibility with CommonJS modules */
         "outDir": "./dist",                    /* Specify output directory */
